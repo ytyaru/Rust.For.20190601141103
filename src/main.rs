@@ -11,6 +11,9 @@ fn main() {
         println!("for {}", x);
     }
 
+    let array = [1, 3, 5];
+    for v in array.iter() { println!("array {}", v); }
+
     let names = vec!["Bob", "Frank", "Ferris"];
     for name in names.iter() { println!("{}", name); }
 
