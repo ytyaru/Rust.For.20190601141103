@@ -10,6 +10,7 @@ fn main() {
     for x in 0..10 {
         println!("for {}", x);
     }
+    for x in (0..10).rev() { println!("for {}", x); }
 
     let array = [1, 3, 5];
     for v in array.iter() { println!("array {}", v); }
